@@ -1,0 +1,21 @@
+
+
+
+
+
+
+/* START BUTTON SECTION */ 
+.send {
+    background-color: blue;
+    color: white;
+    text-transform: uppercase;
+}
+
+.reset-btn {
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+/* END BUTTON SECTION */

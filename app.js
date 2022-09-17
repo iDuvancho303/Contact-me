@@ -8,5 +8,5 @@ function eventListeners() {
 
 // Funciones
 function iniciarApp() {
-    
+    console.log('iniciand')
 }
