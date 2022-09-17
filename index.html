@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div>
+        <header id="main-header">Send New Email</header>
+
+        <form id="send-email">
+
+            <div>
+                <label for="email">From:</label>
+                <input type="email" id="email">
+            </div>
+
+            <div>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject">
+            </div>
+
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+            </div>
+
+            <div id="spinner">
+                <div class="sk-chase">
+
+                </div>
+            </div>
+
+            <div class="flex justify-between">
+                <button id="send" type="submit">Send</button>
+                <button id="reset-btn" type="submit">Reset form</button>
+
+            </div>
+
+        </form>
+    </div> 
 </body>
 </html>
