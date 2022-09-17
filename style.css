@@ -9,12 +9,14 @@
     background-color: blue;
     color: white;
     text-transform: uppercase;
+    border: none;
 }
 
 .reset-btn {
     background-color: green;
     color: white;
     text-transform: uppercase;
+    border: none;
 }
 
 
