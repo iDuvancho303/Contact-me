@@ -1,4 +1,5 @@
 // Variables
+
 const btnSend = document.querySelector('#send');
 
 function eventListeners() {
@@ -10,5 +11,5 @@ function eventListeners() {
 // Funciones
 function iniciarApp() {
     btnSend.disabled = true;
-    btnSend.classList.add()
+    btnSend.classList.add('bad');
 }

@@ -19,5 +19,11 @@
     border: none;
 }
 
+.bad {
+    color: white;
+    background-color: brown;
+    cursor: not-allowed;
+}
+
 
 /* END BUTTON SECTION */
