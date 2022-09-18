@@ -9,5 +9,6 @@ function eventListeners() {
 
 // Funciones
 function iniciarApp() {
-    console.log('iniciando...');
+    btnSend.disabled = true;
+    btnSend.classList.add()
 }
