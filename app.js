@@ -1,4 +1,4 @@
-// Variables
+/* variables */
 
 const btnSend = document.querySelector('#send');
 
@@ -8,7 +8,11 @@ const subject = document.querySelector('#subject');
 const message = document.querySelector('#message');
 
 function eventListeners() {
+    // when the app starts
     document.addEventListener('DOMContentLoaded', iniciarApp);
+
+    //form fields
+    email.addEventListener('blur', validateForm);
 }
 
 
@@ -18,4 +22,13 @@ function iniciarApp() {
     btnSend.disabled = true;
     btnSend.classList.add('bad');
 } // before validation
+
+// validate form
+function validateForm(e) {
+    if(e.target.value.length > 2) {
+        console.log('Si hay algo')
+    } else {
+        e.target.style.background = 'red';
+    }
+}
 
