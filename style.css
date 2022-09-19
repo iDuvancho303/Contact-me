@@ -1,10 +1,19 @@
 
 body {
     background-color: rgb(122, 113, 113);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    justify-content: center;
+    width: 400px;
 }
 
 header {
-    text-align: center;
+    
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
