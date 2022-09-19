@@ -1,4 +1,4 @@
-"use strict"
+
 /* variables */
 
 const btnSend = document.querySelector('#send');
@@ -20,17 +20,20 @@ function eventListeners() {
 
 
 
+/*
 // Funciones
 function iniciarApp() {
     btnSend.disabled = true;
     btnSend.classList.add('bad');
 } // before validation
-
+*/
 // validate form
-function validateForm(e) {
+function validarFormulario(e) {
     if(e.target.value.length > 1) {
-        email.classList.add('.validate');
+        console.log('Si Hay Algo Hombre');
+    } else {
+        e.target.classList.add('broder', 'border-red-500');
+        mostrarError();
     }
-
 }
 
