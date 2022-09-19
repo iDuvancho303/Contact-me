@@ -13,6 +13,8 @@ function eventListeners() {
 
     //form fields
     email.addEventListener('blur', validateForm);
+    subject.addEventListener('blur', validateForm );
+    message.addEventListener('blur', validateForm);
 }
 
 
@@ -28,7 +30,7 @@ function validateForm(e) {
     if(e.target.value.length > 2) {
         console.log('Si hay algo')
     } else {
-        e.target.style.background = 'red';
+        e.target.style.border = 'red';
     }
 }
 
