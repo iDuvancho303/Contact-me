@@ -23,13 +23,13 @@ function eventListeners() {
 
 
 
-/*
+
 // Funciones
 function iniciarApp() {
     btnSend.disabled = true;
     btnSend.classList.add('bad');
 } // before validation
-*/
+
 // validate form
 <<<<<<< HEAD
 function validateForm(b) {
