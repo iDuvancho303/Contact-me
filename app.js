@@ -47,4 +47,3 @@ function validarFormulario(e) {
     }
 }
 
-/* ha ?
