@@ -30,7 +30,7 @@ function iniciarApp() {
 // validate form
 function validarFormulario(e) {
     if(e.target.value.length > 1) {
-        console.log('Si Hay Algo');
+        console.log('Si Hay Algo```');
     } else {
         console.log('nada');
     }
