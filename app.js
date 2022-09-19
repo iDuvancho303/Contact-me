@@ -30,10 +30,9 @@ function iniciarApp() {
 // validate form
 function validarFormulario(e) {
     if(e.target.value.length > 1) {
-        console.log('Si Hay Algo Hombre');
+        console.log('Si Hay Algo');
     } else {
-        e.target.classList.add('broder', 'border-red-500');
-        mostrarError();
+        console.log('nada');
     }
 }
 
