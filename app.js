@@ -1,4 +1,3 @@
-"use strict"
 /* variables */
 
 const btnSend = document.querySelector('#send');
@@ -27,9 +26,11 @@ function iniciarApp() {
 } // before validation
 
 // validate form
-function validateForm(e) {
-    if(e.target.value.length > 1) {
-        email.classList.add('.validate');
+function validateForm(b) {
+    if(b.target.value.length > 1) {
+        console.log('si hay algo');
+    } else {
+        console.log('No hay nada');
     }
 
 }
