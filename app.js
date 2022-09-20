@@ -12,8 +12,13 @@ const expresiones = {
 
 }
 
-inputs.forEach((input, textarea) => {
-    inp
+const validateForm = () => {
+    console.log('Si esta funciando');
+}
+
+inputs.forEach((input) => {
+    input.addEventListener('keyup', validateForm);
+    input.addEventListener('blur', validateForm)
 })
 
 form.addEventListener('submit', (e) => {
