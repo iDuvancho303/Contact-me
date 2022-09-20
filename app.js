@@ -1,5 +1,6 @@
 // Variables
-const form = document.getElementById('#send-email')
+const form = document.getElementById('send-email');
+const inputs = document.querySelectorAll('#send-email input, textarea')
 
 
 const expresiones = {
@@ -8,7 +9,16 @@ const expresiones = {
 	password: /^.{4,12}$/, // 4 a 12 digitos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
+
 }
+
+inputs.forEach((input, textarea) => {
+    inp
+})
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+});
 
 
 
