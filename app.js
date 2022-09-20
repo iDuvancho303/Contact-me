@@ -12,8 +12,8 @@ const expresiones = {
 
 }
 
-const validateForm = () => {
-    console.log('Si esta funciando');
+const validateForm = (e) => {
+    console.log(e.target.name)
 }
 
 inputs.forEach((input) => {
