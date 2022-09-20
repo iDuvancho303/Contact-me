@@ -13,7 +13,17 @@ const expresiones = {
 }
 
 const validateForm = (e) => {
-    console.log(e.target.name)
+    switch (e.target.name) {
+        case 'email':
+            console.log('funciona')
+        break;
+        case 'subject':
+            console.log('funciona2')
+        break;
+        case 'comments':
+            console.log('funciona3')
+        break;
+    }
 }
 
 inputs.forEach((input) => {
