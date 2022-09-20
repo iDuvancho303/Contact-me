@@ -61,8 +61,13 @@ form {
 
 /* END BUTTON SECTION */
 
-/* incorrect*/
+/* validate inputs*/
 .incorrect {
     color: red;
     border: 2px solid red
+}
+
+.correct {
+    color: green;
+    border: 2px solid green;
 }

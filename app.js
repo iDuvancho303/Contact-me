@@ -16,9 +16,10 @@ const validateForm = (e) => {
     switch (e.target.name) {
         case 'email':
             if(expresiones.email.test(e.target.value)){
-                document.getElementById('email').classList.remove('incorrect')
+                document.getElementById('email').classList.remove('incorrect');
+                document.getElementById('email').classList.add('correct')
             } else {
-                document.getElementById('email').classList.add('incorrect')
+                document.getElementById('email').classList.add('incorrect');
             }
         break;
         case 'subject':
