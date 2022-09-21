@@ -28,7 +28,7 @@ form {
     margin-top: 20px
 }
 
-.send-email {
+.form-input {
     max-width: 300px;
     margin: auto;
     display: flex;
