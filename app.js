@@ -18,7 +18,8 @@ const validateForm = (e) => {
             if(expresiones.email.test(e.target.value)){
                 document.getElementById('email').classList.remove('incorrect');
                 document.getElementById('email').classList.add('correct');
-                document.querySelector('#email1 span, i').classList.remove('fa-exclamation-triangle');
+                document.querySelector('#email1 i').classList.remove('fa-exclamation-triangle');
+                document.querySelector('#email1 i').classList.add('fa-check');
             } else {
                 document.getElementById('email').classList.add('incorrect');
             }
