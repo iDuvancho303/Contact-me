@@ -6,9 +6,9 @@ const inputs = document.querySelectorAll('#send-email input, textarea')
 const expresiones = {
 	usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
 	nombre: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
-	password: /^.{4,12}$/, // 4 a 12 digitos.
+	/*password: /^.{4,12}$/, // 4 a 12 digitos.*/
 	email: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-	telefono: /^\d{7,14}$/ // 7 a 14 numeros.
+	/*telefono: /^\d{7,14}$/ // 7 a 14 numeros.*/
 
 }
 
@@ -17,7 +17,8 @@ const validateForm = (e) => {
         case 'email':
             if(expresiones.email.test(e.target.value)){
                 document.getElementById('email').classList.remove('incorrect');
-                document.getElementById('email').classList.add('correct')
+                document.getElementById('email').classList.add('correct');
+                document.querySelector('#email1 span, i').classList.remove('fa-exclamation-triangle');
             } else {
                 document.getElementById('email').classList.add('incorrect');
             }
