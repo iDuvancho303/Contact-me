@@ -22,6 +22,7 @@ const validateForm = (e) => {
                 document.querySelector('#email1 i').classList.add('fa-check');
             } else {
                 document.getElementById('email').classList.add('incorrect');
+                document.querySelector('#email1 i ').classList.add('fa-');
             }
         break;
         case 'subject':
