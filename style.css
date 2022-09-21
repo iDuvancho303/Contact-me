@@ -17,10 +17,11 @@ header {
     
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    background-color: rebeccapurple;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    background-color: #000053;
+    padding: 10px;
 }
 
 form {
