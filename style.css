@@ -37,7 +37,7 @@ form {
 }
 
 input {
-    border: 2px solid red;
+    border: 3px solid #000053;
     padding: 5px 10px 5px 50px;
     font-size: 18px;
     line-height: 30px;
@@ -60,7 +60,7 @@ span.icon {
     left: 10px;
     top: 0;
     font-size: 18px;
-    color: green;
+    color: #000053;
     height: 100%;
     display: flex;
     align-items: center;
