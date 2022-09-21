@@ -125,6 +125,18 @@ span.icon {
     color: green;
 }
 
+.text1 {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    display: none;
+}
+
+.text1-active {
+    display: block;
+    font-size: 14px;
+    color: red;
+}
 
 
 
