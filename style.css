@@ -74,6 +74,15 @@ span.icon {
     justify-content: center;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+}
+
 /*
 #email, #subject, #message {
     /*display: block;*/ 
