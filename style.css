@@ -46,6 +46,13 @@ input {
     outline: 0;
 }
 
+textarea {
+    border: 3px solid #000053;
+    font-size: 18px;
+    width: 100%;
+    resize: none;
+}
+
 .form-input {
     position: relative;
     display: flex;
