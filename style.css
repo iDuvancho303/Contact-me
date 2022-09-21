@@ -14,7 +14,6 @@ body {
 }
 
 header {
-    
     color: #fff;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
@@ -22,13 +21,32 @@ header {
     text-align: center;
     background-color: #000053;
     padding: 10px;
+    width: 100%;
 }
 
 form {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
+.send-email {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+input {
+    border: 2px solid red;
+    padding: 5px 10px 5px 50px;
+    font-size: 18px;
+    line-height: 20px;
+    display: block;
+    width: 100%;
+    outline: 0;
+}
+
+/*
 #email, #subject, #message {
     /*display: block;*/ 
     width: 300px;
@@ -36,7 +54,7 @@ form {
     outline: none;
 }
 
-
+*/
 
 
 
