@@ -46,6 +46,15 @@ input {
     outline: 0;
 }
 
+.form-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+
 /*
 #email, #subject, #message {
     /*display: block;*/ 
