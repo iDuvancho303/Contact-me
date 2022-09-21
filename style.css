@@ -76,6 +76,8 @@ span.icon {
     justify-content: center;
 }
 
+/* START BUTTON SECTION */ 
+
 .buttons {
     display: flex;
     align-items: center;
@@ -90,27 +92,24 @@ span.icon {
 }
 
 
-/* START BUTTON SECTION */ 
-.send {
-    background-color: blue;
+.send, .reset-btn {
+    background-color: #000053;
     color: white;
     text-transform: uppercase;
     border: none;
+    height: 30px;
+    border-radius: 5px;
+    padding: 20px 20px;
 }
 
-.reset-btn {
-    background-color: green;
-    color: white;
-    text-transform: uppercase;
-    border: none;
-}
-
+/*
 .bad {
     color: yellow;
     background-color: brown;
     cursor: not-allowed;
     opacity: 0.7;
 }
+*/
 
 /* END BUTTON SECTION */
 
