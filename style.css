@@ -76,11 +76,15 @@ span.icon {
 
 .buttons {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     justify-content: center;
     align-items: center;
     position: relative;
     margin: 20px;
+}
+
+.btn-right {
+    margin-left: 20px;
 }
 
 /*
