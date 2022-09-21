@@ -117,6 +117,14 @@ span.icon {
     border: 3px solid green;
 }
 
+.fa-times-circle {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+}
+
 
 
 
