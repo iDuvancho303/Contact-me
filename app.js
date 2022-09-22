@@ -20,6 +20,7 @@ const validateForm = (e) => {
                 document.getElementById('email').classList.add('correct');
                 document.querySelector('#email1 i').classList.remove('fa-exclamation-triangle');
                 document.querySelector('#email1 i').classList.add('fa-check');
+                document.querySelector('#send-email .text1').classList.remove('text1-active');
             } else {
                 document.getElementById('email').classList.remove('correct');
                 document.querySelector('#email1 i').classList.remove('fa-check');
