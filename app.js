@@ -34,8 +34,10 @@ const validateForm = (e) => {
         break;
         case 'subject':
             if(expresiones.nombre.test(e.target.value)){
+                document.querySelector("#subject1 i").classList.remove('fa-exclamation-triangle');
                 document.getElementById('subject').classList.remove('incorrect');
                 document.getElementById('subject').classList.add('correct');
+                document.querySelector('#subject1 i').classList.add('fa-check');
             }
         
         break;
