@@ -40,6 +40,7 @@ const validateForm = (e) => {
                 document.querySelector('#subject1 i').classList.add('fa-check');
             } else {
                 document.getElementById('subject').classList.add('incorrect');
+                document.querySelector('#subject1 i').classList.remmove('fa-exclamation-triangle');
             }
         
         break;
