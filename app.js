@@ -38,6 +38,8 @@ const validateForm = (e) => {
                 document.getElementById('subject').classList.remove('incorrect');
                 document.getElementById('subject').classList.add('correct');
                 document.querySelector('#subject1 i').classList.add('fa-check');
+            } else {
+                document.getElementById('subject').classList.add('incorrect');
             }
         
         break;
