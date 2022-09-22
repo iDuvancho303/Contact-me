@@ -32,11 +32,29 @@ const validateForm = (e) => {
             }
         break;
         case 'subject':
-            console.log('funciona2')
+        
         break;
         case 'comments':
             console.log('funciona3')
         break;
+    }
+}
+
+const validate = () => {
+    if(expresiones.email.test(e.target.value)){
+        document.getElementById('email').classList.remove('incorrect');
+        document.getElementById('email').classList.add('correct');
+        document.querySelector('#email1 i').classList.remove('fa-exclamation-triangle');
+        document.querySelector('#email1 i').classList.add('fa-check');
+        document.querySelector('#send-email .text1').classList.remove('text1-active');
+    } else {
+        document.getElementById('email').classList.remove('correct');
+        document.querySelector('#email1 i').classList.remove('fa-check');
+        document.querySelector('#email1 i').classList.remove('fa-exclamation-triangle');
+        document.getElementById('email').classList.add('incorrect');
+        document.querySelector('#email1 i ').classList.add('fa-times-circle');
+        document.querySelector('#send-email .text1').classList.add('text1-active');
+
     }
 }
 
