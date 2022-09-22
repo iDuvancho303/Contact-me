@@ -21,6 +21,7 @@ const validateForm = (e) => {
                 document.querySelector('#email1 i').classList.remove('fa-exclamation-triangle');
                 document.querySelector('#email1 i').classList.add('fa-check');
                 document.querySelector('#send-email .text1').classList.remove('text1-active');
+                document.querySelector('#email1 i ').classList.remove('fa-times-circle');
             } else {
                 document.getElementById('email').classList.remove('correct');
                 document.querySelector('#email1 i').classList.remove('fa-check');
@@ -32,6 +33,10 @@ const validateForm = (e) => {
             }
         break;
         case 'subject':
+            if(expresiones.nombre.test(e.target.value)){
+                document.getElementById('subject').classList.remove('incorrect');
+                document.getElementById('subject').classList.add('correct');
+            }
         
         break;
         case 'comments':
