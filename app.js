@@ -39,9 +39,8 @@ const validateForm = (e) => {
                 document.getElementById('subject').classList.add('correct');
                 document.querySelector('#subject1 i').classList.add('fa-check');
             } else {
-                document.getElementById('subject').classList.remove('correct');
-                document.getElementById('subject').classList.add('incorrect');
-                document.querySelector('#subject1 i').classList.add('fa-times-circle');
+                
+                
             }
         
         break;
