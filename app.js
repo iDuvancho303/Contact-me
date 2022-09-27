@@ -41,7 +41,6 @@ const validateForm = (e) => {
             } else {
                 document.getElementById('subject').classList.remove('correct');
                 document.getElementById('subject').classList.add('incorrect');
-                document.querySelector('#subject1 i').classList.remmove('fa-exclamation-triangle');
                 document.querySelector('#subject1 i').classList.add('fa-times-circle');
             }
         
